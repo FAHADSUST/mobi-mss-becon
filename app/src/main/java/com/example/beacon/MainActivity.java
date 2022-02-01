@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //TODO: get intent
-        inputInterval = (TextView)findViewById(R.id.inputInterval);
+        inputInterval = (EditText)findViewById(R.id.inputInterval);
         btnStartScan = (Button)findViewById(R.id.btnStartScan);
         btnStopScan = (Button)findViewById(R.id.btnStopScan);
 
